@@ -33,7 +33,11 @@ open "https://www.google.com/search?q=site:$TARGET+ext:action+OR+ext:struts+OR+e
 open "https://www.google.com/search?q=site:pastebin.com+$TARGET" 2> /dev/null
 # FIND EMPLOYEES ON LINKEDIN:
 open "https://www.google.com/search?q=site:linkedin.com+employees+$TARGET" 2> /dev/null
-# Find Subdomains
+# FIND Subdomains
 open "https://www.google.com/search?q=site:*.$TARGET" 2> /dev/null
-# Find Sub-subdomains
+# FIND Sub-subdomains
 open "https://www.google.com/search?q=site:*.*.$TARGET" 2> /dev/null
+# FIND PHPINFO Files
+open "https://www.google.com/search?q=inurl:'/phpinfo.php'+$TARGET" 2> /dev/null
+# FIND .htaccess & sensitive fiels
+open "https://www.google.com/search?q=inurl:'/phpinfo.php'+OR+inurl:'.htaccess'+OR+inurl:'/.git'+$TARGET+-github" 2> /dev/null
