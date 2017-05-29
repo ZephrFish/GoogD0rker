@@ -28,7 +28,7 @@ open "https://www.google.com/search?q=site:$TARGET+ext:cgi+OR+ext:php+OR+ext:asp
 # FIND DOCUMENTS BY EXTENSION:
 open "https://www.google.com/search?q=site:$TARGET+ext:doc+OR+ext:docx+OR+ext:csv+OR+ext:pdf+OR+ext:txt+OR+ext:log+OR+ext:bak" 2> /dev/null
 # FIND APACHE STRUTS RCE's:
-open "https://www.google.com/search?q=site:$TARGET+ext:action+OR+ext:struts" 2> /dev/null
+open "https://www.google.com/search?q=site:$TARGET+ext:action+OR+ext:struts+OR+ext:do" 2> /dev/null
 # FIND PASTEBIN POSTS FOR DOMAIN:
 open "https://www.google.com/search?q=site:pastebin.com+$TARGET" 2> /dev/null
 # FIND EMPLOYEES ON LINKEDIN:
