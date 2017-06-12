@@ -5,7 +5,7 @@ GoogD0rker is a tool for firing off google dorks against a target domain, it is 
 
 ### GoogD0rker-TXT
 
-GoogD0rker-TXT was written by [xt3rob](https://github.com/txt3rob/bugbountydork) has been merged into this repo to keep continuity, changes will be added to this over time to account for extra D0rks and features.
+GoogD0rker-TXT was written by [txt3rob](https://github.com/txt3rob/bugbountydork) has been merged into this repo to keep continuity, changes will be added to this over time to account for extra D0rks and features.
 
 ### GoogD0rker-TXT - Setup
 Install the pre-reqs which are the google library for python, also install python if you haven't already.
