@@ -1,4 +1,4 @@
-# GoogleD0rker 0.2 - TXT Edition
+# GoogD0rker 0.2 - TXT Edition
 # Written by https://github.com/txt3rob/bugbountydork originally
 # Merging changes into the main repo
 # Follow RandomRobbie on the twitters, https://twitter.com/Random_Robbie
