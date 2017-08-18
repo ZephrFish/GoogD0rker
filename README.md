@@ -16,9 +16,13 @@ This will output all the google results for each of the tasks so you can hopeful
 
 ### GoogD0rker-TXT - Usage
 
+*This will work on any unix machine*
+
 `googD0rker-txt.py -d example.com`
 
-## GoogD0rker Usage
+## GoogD0rker Shell Script
+
+*Note this will only work on OSX, as it was written as a quick PoC tool*
 
 `/googd0rker.sh domain.com`
 
