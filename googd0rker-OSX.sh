@@ -4,6 +4,8 @@
 #
 # Google D0rker - Multiple Search Terms for OSINT on a Domain
 # Based on Goohak(https://github.com/1N3/Goohak), however adopted for OSX & Tweaked
+# Designed for OSX
+echo "Designed for OSX"
 
 TARGET="$1"
 
