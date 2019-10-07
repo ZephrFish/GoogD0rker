@@ -3,7 +3,7 @@
 # Follow RandomRobbie on the twitters, https://twitter.com/Random_Robbie
 # Added in Sleep inbetween requests
 
-from google import search
+from googlesearch import search
 import os
 import argparse
 from random import randint
@@ -90,5 +90,5 @@ sleep(randint(10,100))
 print ("Finding .htaccess & sensitive fiels for "+site+"\n")
 google_it (site,"inurl:'/phpinfo.php' OR inurl:'.htaccess' OR inurl:'/.git' "+site+" -github" ,"sensitive.txt")
 sleep(randint(10,100))
-google_it(site, "site:"+site+, "inurl:callback")
+google_it(site, "site:"+site+" inurl:callback")
 time.sleep(5)
