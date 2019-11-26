@@ -1,6 +1,5 @@
 # GoogD0rker 0.3 
 # Merging changes into the main repo
-# Follow RandomRobbie on the twitters, https://twitter.com/Random_Robbie
 # Added in Sleep inbetween requests
 
 from googlesearch import search
@@ -18,7 +17,7 @@ parser.add_argument('-d', action='store', dest='domain', help='type in the domai
 results = parser.parse_args()
 
 if results.domain == None:
-	print ("Please enter the domain you wish to target: main.py -d target.com")
+	print ("Please enter the domain you wish to target: googd0rker.py -d target.com")
 	exit()
 else:
 	site = results.domain
