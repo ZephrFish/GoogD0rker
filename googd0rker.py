@@ -1,4 +1,4 @@
-# GoogD0rker 0.3 
+# GoogD0rker 1.0
 # Merging changes into the main repo
 # Added in Sleep inbetween requests
 
