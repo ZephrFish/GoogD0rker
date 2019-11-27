@@ -1,16 +1,13 @@
 # GoogD0rker
 
 ## About
-GoogD0rker is a tool for firing off google dorks against a target domain, it is purely for OSINT against a specific target domain. 
+GoogD0rker is a tool for firing off google dorks against a target domain, it is purely for OSINT against a specific target domain. This will output all the google results for each of the tasks so you can hopefully find a vunerability. A 503 error means you need a new IP as google knows you're up to something!  This will output the results to files and then you can browse and see what you have found.
 
-### GoogD0rker - Setup
+### Setup
 Install the pre-reqs which are the google library for python, also install python if you haven't already.
 `pip install -r rerquirements`
 
-### GoogD0rker - Info
-This will output all the google results for each of the tasks so you can hopefully find a vunerability. A 503 error means you need a new IP as google knows you're up to something!  This will output the results to files and then you can browse and see what you have found.
-
-### GoogD0rker - Usage
+### Usage
 
 *This will work on any unix machine*
 
