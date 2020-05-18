@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # GoogD0rker 2.0
+# Re-writing so this will not work atm!
 # Full python 3 re-write to correct issues
 # Added in Sleep inbetween requests and pause inbetween queries to correct the too many requests error
 # App will only search for first 50 pages, if you want more change line 42 to none and line 43 to 5.0
